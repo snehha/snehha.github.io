@@ -114,37 +114,100 @@ h1 {
     font-weight: 100;
 }
 
-.intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+.homepage-header {
+    position:relative;
+    padding-top: 20px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 10px;
     text-align: center;
     background-color: black;
     color: #f8f8f8;
-    background: url(../img/wall_climbing.jpg) no-repeat center scroll rgba(0, 0, 0, 0.8);
-    -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
-    filter: sepia(20%);
+}
+.homepage-bg-image {
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index:1;
+    background: url(../img/about/charles_sunset.jpg) no-repeat center center fixed;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
+    -o-filter: brightness(40%);
+    -ms-filter: brightness(40%);
+    filter: brightness(0%);
     background-size: cover;
 }
-.about-banner {
-    padding-top: 300px;
-    padding-bottom: 300px;
-    width:100%;
+.homepage-title {
+    position:relative;
+    z-index:2;
+    color:#f8f8f8;
     text-align: center;
+    font-size: 10px;
+    /*position: absolute;
     color: #f8f8f8;
-    background: url(../img/wall_climbing.jpg) no-repeat center center fixed;
-    -webkit-filter: grayscale(50%);
-    z-index: 0;
-    background-size: cover;
+    z-index: 1;
+    */
+} 
+.about-banner {
+    position:relative;
+    padding-top: 300px;
+    padding-bottom: 270px;
 }
 
-.head-title {
-    /*position: fixed;
-    padding-left: 40%;*/
-    font-size: 100px;
-    /*-webkit-filter: brightness(100%);*/
-    /*z-index: 1;*/
-} 
+.bg_image { 
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:url('../img/about/wall_climbing.JPG') no-repeat center center fixed;
+    background-size:cover;
+    z-index:1;
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+    filter: brightness(50%);
+}
 
+
+.about-title {
+    position:relative;
+    z-index:2;
+    color:#f8f8f8;
+    text-align: center;
+    font-size: 50px;
+    
+} 
+.contact-banner {
+    position:relative;
+    padding-top: 300px;
+    padding-bottom: 270px;
+}
+
+.contact-bg { 
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:url('../img/about/t_tracks_fall.JPG') no-repeat center center fixed;
+    background-size:cover;
+    z-index:1;
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+
+.contact-title {
+    position:relative;
+    z-index:2;
+    color:#f8f8f8;
+} 
 
 .content-section-a {
     padding: 50px 0;
