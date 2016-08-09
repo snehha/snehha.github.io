@@ -163,7 +163,7 @@ h1 {
     bottom:0;
     /*padding-top: 200px;
     padding-bottom: 200px;*/
-    background:url('../img/about/wall_climbing.jpg') no-repeat center center fixed;
+    background:url(../img/about/wall_climbing.jpg) no-repeat center center fixed;
     background-size:cover;
     z-index:1;
     -webkit-filter: brightness(50%);
@@ -200,7 +200,7 @@ h1 {
     bottom:0;
     /*padding-top: 200px;
     padding-bottom: 200px;*/
-    background:url('../img/about/t_tracks_fall.jpg') no-repeat center center fixed;
+    background:url(../img/about/t_tracks_fall.jpg) no-repeat center center fixed;
     background-size:cover;
     z-index:1;
     -webkit-filter: brightness(50%);
