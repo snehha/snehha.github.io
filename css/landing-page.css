@@ -161,9 +161,11 @@ h1 {
     right:0;
     top:0;
     bottom:0;
+    /*padding-top: 200px;
+    padding-bottom: 200px;*/
     background:url('../img/about/wall_climbing.JPG') no-repeat center center fixed;
     background-size:cover;
-    z-index:1;
+    /*z-index:1;*/
     -webkit-filter: brightness(50%);
     -moz-filter: brightness(50%);
     -o-filter: brightness(50%);
@@ -174,11 +176,14 @@ h1 {
 
 .about-title {
     position:relative;
-    z-index:2;
+    /*z-index:2;*/
     color:#f8f8f8;
     text-align: center;
     font-size: 50px;
-    
+    /*position: absolute;
+    color: #f8f8f8;
+    z-index: 1;
+    */
 } 
 .contact-banner {
     position:relative;
@@ -199,15 +204,14 @@ h1 {
     -moz-filter: brightness(50%);
     -o-filter: brightness(50%);
     -ms-filter: brightness(50%);
-    filter: brightness(50%);
-}
-
+    filter: brightness(50%);}
 
 .contact-title {
     position:relative;
     z-index:2;
     color:#f8f8f8;
 } 
+
 
 .content-section-a {
     padding: 50px 0;
